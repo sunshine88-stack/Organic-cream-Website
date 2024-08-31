@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunny Organic Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                        <div class="dropdown"> 
+                            <li><a href="#">Our Product</a>
+                          <div class="dropdown-content">
+                            <a href="organic.html">Organic Cream</a>
+                            <a href="hair.html">Organic Hair Cream</a>
+                            <a href="conditioner.html">Conditioner</a>
+                            <a href="shampoo.html">Shampoo</a>
+                            <a href="soap.html">Soaps</a>
+                          </div>
+                        </div>
+                      </li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact-us">
+            <h1>Contact Us</h1>
+            <p>Feel free to contact us with any questions, feedback, or inquiries you may have. Our dedicated customer support team is here to assist you and ensure your experience with us is seamless. You can reach us via email, phone, or our address. Thank you for choosing us, and we look forward to hearing from you!</p>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form class="form-contact">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" name="contact-name" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <label for="contact-phone">Phone Number</label>
+                        <input type="tel" id="contact-phone" name="contact-phone" required>
+
+                        <label for="contact-email">Email Address</label>
+                        <input type="email" id="contact-email" name="contact-email" required>
+
+                        <center><button id="send-btn" type="submit">Send</button></center>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <img src="street-map.png" alt="Map" class="map-image">
+                    <hr>
+                    <p>Office Address: No. 121, Ogunlana street Egbeda, Lagos State.</p>
+                    <p>Phone Number: +234-0814-1573-761</p>
+                    <p>Email Address: <a href="mailto:nwaokikefaith58@gmail.com">nwaokikefaith58@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Our Product</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <br>
+        <p>&copy; 2024 Sunny Organic Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
